@@ -5,11 +5,13 @@ public class Elgun extends Insan{
         System.out.println("elgun yeyir");
 
     }
+    @Override
     public void work() {
         System.out.println("elgun iwleyir");
 
     }
     public void sleep(String kravat) {
+
         System.out.println("elgun  yatir" + kravat);
 
     }
@@ -22,7 +24,7 @@ public class Elgun extends Insan{
         Elgun elgun = new Elgun();
         elgun.eat();
         elgun.work();
-        elgun.sleep("Mebel kravat");
+        elgun.sleep("Mebel kravat");// metod overloading
         elgun.drink();
     }
 }

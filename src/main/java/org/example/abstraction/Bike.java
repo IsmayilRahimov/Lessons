@@ -8,7 +8,7 @@ public class Bike implements Vehicle {
     }
 
     @Override
-    public void stop() {
+    public void stop(String durmaq) {
         System.out.println("Stop");
     }
 

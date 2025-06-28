@@ -3,5 +3,5 @@ package org.example.abstraction;
 public interface Vehicle {
     void drive();
     void start();
-    void stop();
+    void stop(String diyanmaq);
 }
