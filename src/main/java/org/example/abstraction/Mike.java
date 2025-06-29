@@ -1,6 +1,6 @@
 package org.example.abstraction;
 
-public class Mike extends Feelings implements Behaviour{
+public abstract class Mike extends Feelings implements Behaviour{
 
     @Override
     public void laugh() {
@@ -32,7 +32,12 @@ public class Mike extends Feelings implements Behaviour{
 
     public void main(String[] args) {
 
-        Mike mike = new Mike();
+        Mike mike = new Mike() {
+            @Override
+            public void eat() {
+                System.out.println( "Mike eat");
+            }
+        };
         mike.cry();
         mike.laugh();
         mike.smile();

@@ -13,5 +13,6 @@ public class Eli extends Feelings {
         Eli eli = new Eli();
         eli.loving("Qasimov");
         eli.eating();
+
     }
 }

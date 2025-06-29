@@ -5,4 +5,5 @@ public interface Behaviour {
     void cry();
     void smile();
     void walk();
+    void eat();
 }
