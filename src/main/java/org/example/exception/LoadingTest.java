@@ -11,6 +11,10 @@ public class LoadingTest {
         }catch (InterruptedException e){
             System.out.println("Zehmet olmasa gozleyin");
         }throw new RuntimeException ("Bitdi:") ;
+
         }
-    }
+
+        }
+
+
 
