@@ -15,5 +15,22 @@ public class Nurlana {
 
 
 
+
+
     }
+    class Nurlanaclass {
+
+
+
+            int number;
+            int number2;
+            int sum;
+            Nurlanaclass( int number, int number2){
+                this.number = number;
+                this.number2 = number2;
+                sum = number + number2;
+                System.out.println("Toplam: " + sum);
+            }
+        }
+
 }
