@@ -8,7 +8,7 @@ public class ArraysCem {
         numbers[2] = 3;
         numbers[3] = 4;
         numbers[4] = 5;
-        int sum = 0;
+        int sum = numbers[0];
         sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
         System.out.println(sum);
         int ortalama = sum / numbers.length;
