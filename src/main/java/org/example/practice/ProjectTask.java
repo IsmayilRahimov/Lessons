@@ -1,5 +1,8 @@
 package org.example.practice;
 
+/**
+ * Method daxilinde Commentler method cagirildiqda isledile biler:
+ */
 public class ProjectTask {
     public static void main(String[] args) {
 
@@ -25,5 +28,23 @@ public class ProjectTask {
         double price;
         price = 17.2;
         System.out.println(price);
+
+        byte num = 34;
+        short num1 = 34;
+        int num2 = 34;
+        long num3 = 34;
+        float num4 = 34;
+        double num5 = 34;
+
+
+        float num6 = 20.2f;
+        double num7 = 20.2d;
+
+        /*
+        salam burada task var : Loading :
+         */
+        /*
+
+         */
     }
 }
