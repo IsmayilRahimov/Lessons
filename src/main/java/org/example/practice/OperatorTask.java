@@ -14,7 +14,7 @@ public class OperatorTask {
         int b = 5;
         int result = a % b;  // 23 % 5 = qaliq 3
         System.out.println(result);
-        double result1 =(double) a / b;
+        double  result1 =(double) a / b;
         System.out.println(result1);
 
     }
