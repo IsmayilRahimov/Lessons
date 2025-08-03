@@ -18,7 +18,9 @@ public class Logic {
 
         int number = 0;   // true
         boolean flag = speed > 240 && ++number >1;
-        System.out.println(number);
+//        System.out.println(number);
+        System.out.println(flag);
+        System.out.println(!flag);
     }
 
 }
