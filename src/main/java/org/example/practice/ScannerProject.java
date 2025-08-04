@@ -9,7 +9,7 @@ public class ScannerProject {
         int num1 = scanner.nextInt();
         System.out.print("Please enter second numbers:");
         int num2 = scanner.nextInt();
-        System.out.println("Please enter the operator: [ + , - , /, *, % ]");
+        System.out.print("Please enter the operator: [ + , - , /, *, % ] :");
         char operator = scanner.next().charAt(0);
         switch (operator) {
             case '+':
@@ -22,10 +22,14 @@ public class ScannerProject {
                 System.out.println("Multiplication is " + (num1 * num2));
                 break;
             case '/':
-                System.out.println("Division is " + (num1 / num2));
+                System.out.println("Division is " + (num1 / (double) num2));
+                break;
+            case '%':
+                System.out.println("Remainder is " + (num1 % num2));
                 break;
             default:
                 System.out.println("Invalid operator");
+                break;
         }
 
 
