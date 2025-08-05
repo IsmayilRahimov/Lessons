@@ -8,5 +8,8 @@ public class ArrayFor {
             System.out.println(element - element);
             System.out.println(element / element);
         }
+        int[] array = {1, 6, 4, 2};
+        for (int key : array)
+            System.out.println(key * key);
     }
 }
