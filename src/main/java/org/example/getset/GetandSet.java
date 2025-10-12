@@ -1,5 +1,8 @@
 package org.example.getset;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class GetandSet {
     private String name;
     private double age;
