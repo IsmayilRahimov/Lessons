@@ -9,5 +9,7 @@ public class OverrPr extends OverrP2 {
     public static void main(String[] args) {
         OverrPr s1 = new OverrPr();
         s1.sound(" :Dostoyevski");
+        OverrP2 s2 = new OverrP2();
+        s2.sound("Riyazyat");
     }
 }
