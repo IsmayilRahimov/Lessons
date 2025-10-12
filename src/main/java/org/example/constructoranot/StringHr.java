@@ -14,5 +14,10 @@ public class StringHr {
         System.out.println(s1.equals(s2));
 
         System.out.println(a1 == a2); // burada ise yeni obyektler yarandigi ucun
+
+        String b1 = "Lol";
+        String b2 = new String("Lol");
+
+        System.out.println(b1 == b2);
     }
 }
