@@ -10,7 +10,7 @@ public class Insan {
         System.out.println("insan iwleyir");
     }
 
-    public void sleep(String yataq,String yorgan) {
-        System.out.println("insan yataqda yatir");
+    public String sleep(String yataq, String yorgan) {
+        return "insan yataqda yatir";
     }
 }
