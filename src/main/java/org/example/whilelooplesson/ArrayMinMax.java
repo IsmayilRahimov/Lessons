@@ -1,4 +1,4 @@
-package org.example;
+package org.example.whilelooplesson;
 
 public class ArrayMinMax {
     public static void main(String[] args) {
